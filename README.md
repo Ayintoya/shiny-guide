@@ -1,6 +1,6 @@
 # A Simple & Effective Git Workflow
 
-## 1. Starting New Work: The Development Branch
+### 1. Starting New Work: The Development Branch
 
 Never work directly on the `main` branch. Always create a dedicated, descriptively-named branch for the feature or fix you are working on.
 
