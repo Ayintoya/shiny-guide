@@ -58,3 +58,14 @@ git checkout feat/add-timeline-scrolling
 ```bash
 git rebase main
 ```
+Rebasing replays your branch's commits on top of main's latest changes, keeping the history linear and clean. If you encounter merge conflicts, Git will pause and ask you to resolve them before continuing.
+
+###3. Merging Your Feature: The Pull Request (PR)
+When your feature is complete, you merge it into main using a Pull Request. The PR provides a space to review your changes one last time and serves as a permanent record of the discussion and decision-making process.
+
+#### Go to your repository on GitHub.
+#### Click the "Compare & pull request" button for your newly pushed branch.
+#### Give the PR a clear title and a brief description of the changes.
+#### Review the "Files Changed" tab yourself. You will often spot mistakes or areas for improvement here that you missed in your editor.
+#### Click "Merge pull request".
+#### Choose the "Squash and merge" option. This combines all of your branch's commits into a single, clean commit on the main branch. It keeps the history of main tidy and easy to read.
