@@ -38,3 +38,23 @@ The '-u' flag sets the upstream link the first time you push a new branch.
 ```bash
 git push -u origin feat/add-timeline-scrolling
 ```
+Pushing regularly acts as a backup of your work.
+Keeping Your Branch Updated
+If other changes get merged into main while you're working, you should update your branch to prevent major conflicts later.
+
+### 1. Make sure your branch is clean (commit or stash your changes).
+### 2. Switch to the main branch and pull the latest updates.
+```bash
+git checkout main
+```
+```bash
+git pull origin main
+```
+### 3. Switch back to your development branch.
+```bash
+git checkout feat/add-timeline-scrolling
+```
+### 4. Rebase your branch on top of the latest changes from main.
+```bash
+git rebase main
+```
